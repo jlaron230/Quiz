@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+
+<header><!--Titre-->
+    <h1>Quiz couleur</h1>
+</header>
+<main class="wrapper">
+ <section> <!--Section réponse à cliquer-->
+    <p>Choisissez le code RGB qui correspond à cette valeur</p>
+    <div id="couleur">
+    </div>
+    <ul class="reponses">
+        <li class="reponse">rgb(0,0,0)</li>
+        <li class="reponse">rgb(0,0,0)</li>
+        <li class="reponse">rgb(0,0,0)</li>
+    </ul>
+    <ul class="reponses"> 
+      <li class="reponse">rgb(0,0,0)</li>
+      <li class="reponse">rgb(0,0,0)</li>
+      <li class="reponse">rgb(0,0,0)</li>
+    </ul>
+ </section>
+
+ <section class="score"> <!--Score text + link-->
+     <ul>
+     bonne réponse à la suite <span id="score">0</span>
+     </ul>
+        <a href="https://fr.wikipedia.org/wiki/Rouge-vert-bleu" target="_blank">
+        Besoin d'aide ? Rappel sur le RGB</a>
+ </section>
+</main>
+
+  <script src="/Quiz/app.js"></script>
+</body>
+</html>
